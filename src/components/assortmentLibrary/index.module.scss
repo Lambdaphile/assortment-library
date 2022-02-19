@@ -1,0 +1,21 @@
+.AssortmentLibrary {
+  &Header,
+  &Body {
+    div {
+      margin: 2rem;
+      display: flex;
+    }
+  }
+
+  &Header {
+    border: 1px solid red;
+  }
+
+  &Body {
+    border: 1px solid blue;
+
+    > div {
+      border: 1px solid blue;
+    }
+  }
+}
